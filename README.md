@@ -23,7 +23,7 @@ Generates a random puzzle that conforms with the parameters provided in a format
 \<tile id\>: \<up edge\>, \<right edge\>, \<down edge\>, \<left edge\>
 ...
 \<tile id\>: \<up edge\> \<right edge\> \<down edge\> \<left edge\>
-
-The "rotate tiles flag" indicates whether the tile edges were randomly rotated or not.
 `
+The "rotate tiles flag" indicates whether the tile edges were randomly rotated or not.
+
 A tile can connect with tiles that have an opposite edge value.
