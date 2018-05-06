@@ -17,13 +17,13 @@ Reads 5 parameters on standard input:
 
 Generates a random puzzle that conforms with the parameters provided in a format that can be used by the solver.
 
-##Puzzle data format
-
+## Puzzle data format
+'''
 \<number of columns\>, \<number of rows\>, \<rotate tiles flag\>
 \<tile id\>: \<up edge\>, \<right edge\>, \<down edge\>, \<left edge\>
 ...
 \<tile id\>: \<up edge\> \<right edge\> \<down edge\> \<left edge\>
-
+'''
 The "rotate titles flag" indicates whether the tile edges were randomly rotated or not.
 
 A tile can connect with tiles that have an opposite edge value.
