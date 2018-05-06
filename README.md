@@ -28,4 +28,4 @@ Generates a random puzzle that conforms with the parameters provided in a format
 
 The "rotate tiles flag" indicates whether the tile edges were randomly rotated or not.
 
-A tile can connect with tiles that have an opposite edge value.
+A tile can connect with tiles that have an opposite edge value on one of their sides.
